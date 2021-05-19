@@ -1,1 +1,6 @@
-# Estudo_HTML
+# Estudo_WEB
+
+- HTML
+- CSS
+- JS
+

@@ -1,10 +1,25 @@
 body {
 	background: rgb(241, 241, 241);
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	max-width: 500px;
+	margin: auto;
 }
 
 
 #title, .subtitle, .post_title, .img_post {
 	color: rgb(111, 119, 243);
+}
+
+#title {
+	font-size: 40px;
+	text-transform: capitalize;
+	text-align: center;
+	margin: 3px;
+}
+
+a {
+	text-decoration: line-through;
+	color:rgb(111, 119, 243);
 }
 .post_title {
 	font-size: 18px;
@@ -26,12 +41,14 @@ body {
 .img_post {
 	width: 100px;
 	height: 100px;
-	margin-bottom: 15px;
+	margin-bottom: 5px;
+	text-align: center;
 }
 
 .post_content {
 	margin: 0;
 	margin-bottom: 15;
+	text-align: center;
 }
 
 .photo {
@@ -40,4 +57,17 @@ body {
 	margin-bottom: 15px;
 	border-radius: 50%;
 	border: 1px solid black;
+	margin: 2px;
+	text-align: center;
+}
+
+.contact_list {
+	list-style-type: none;
+	padding-left: 15px;
+	text-align: center;
+}
+
+.contact_list li a {
+	color: springgreen;
+	text-decoration: none;
 }
